@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var colorHex: String = "#FFFFFF"
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            CameraView(colorHex: $colorHex)
+                .frame(height: 400)
+            Text("Color: \(colorHex)")
+                .font(.title)
+                .padding()
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
