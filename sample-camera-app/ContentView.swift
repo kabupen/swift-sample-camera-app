@@ -12,8 +12,8 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            CameraView(colorHex: $colorHex)
-                .frame(height: 400)
+            // CameraView(colorHex: $colorHex)
+            
             Text("Color: \(colorHex)")
                 .font(.title)
                 .padding()
