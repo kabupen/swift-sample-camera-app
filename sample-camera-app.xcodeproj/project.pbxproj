@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B381B2D2BDC8F000043A5BA /* VideoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B381B2C2BDC8F000043A5BA /* VideoCaptureView.swift */; };
+		2B5B39082BD4AE5F0075AABB /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B39072BD4AE5F0075AABB /* CameraPreviewView.swift */; };
+		2B5B390B2BD4B89C0075AABB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B390A2BD4B89C0075AABB /* CameraView.swift */; };
 		2BAB0F412BD3AFB300BEC974 /* sample_camera_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB0F402BD3AFB300BEC974 /* sample_camera_appApp.swift */; };
 		2BAB0F432BD3AFB300BEC974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB0F422BD3AFB300BEC974 /* ContentView.swift */; };
 		2BAB0F452BD3AFB400BEC974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAB0F442BD3AFB400BEC974 /* Assets.xcassets */; };
@@ -14,7 +17,6 @@
 		2BAB0F532BD3AFB400BEC974 /* sample_camera_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB0F522BD3AFB400BEC974 /* sample_camera_appTests.swift */; };
 		2BAB0F5D2BD3AFB400BEC974 /* sample_camera_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB0F5C2BD3AFB400BEC974 /* sample_camera_appUITests.swift */; };
 		2BAB0F5F2BD3AFB400BEC974 /* sample_camera_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB0F5E2BD3AFB400BEC974 /* sample_camera_appUITestsLaunchTests.swift */; };
-		2BAB0F6C2BD3AFE400BEC974 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB0F6B2BD3AFE400BEC974 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B381B2C2BDC8F000043A5BA /* VideoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureView.swift; sourceTree = "<group>"; };
+		2B5B39072BD4AE5F0075AABB /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		2B5B390A2BD4B89C0075AABB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		2BAB0F3D2BD3AFB300BEC974 /* sample-camera-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-camera-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAB0F402BD3AFB300BEC974 /* sample_camera_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_camera_appApp.swift; sourceTree = "<group>"; };
 		2BAB0F422BD3AFB300BEC974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +51,6 @@
 		2BAB0F582BD3AFB400BEC974 /* sample-camera-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-camera-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAB0F5C2BD3AFB400BEC974 /* sample_camera_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_camera_appUITests.swift; sourceTree = "<group>"; };
 		2BAB0F5E2BD3AFB400BEC974 /* sample_camera_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_camera_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2BAB0F6B2BD3AFE400BEC974 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				2BAB0F442BD3AFB400BEC974 /* Assets.xcassets */,
 				2BAB0F462BD3AFB400BEC974 /* sample_camera_app.entitlements */,
 				2BAB0F472BD3AFB400BEC974 /* Preview Content */,
-				2BAB0F6B2BD3AFE400BEC974 /* CameraView.swift */,
+				2B5B39072BD4AE5F0075AABB /* CameraPreviewView.swift */,
+				2B5B390A2BD4B89C0075AABB /* CameraView.swift */,
+				2B381B2C2BDC8F000043A5BA /* VideoCaptureView.swift */,
 			);
 			path = "sample-camera-app";
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BAB0F6C2BD3AFE400BEC974 /* CameraView.swift in Sources */,
+				2B381B2D2BDC8F000043A5BA /* VideoCaptureView.swift in Sources */,
+				2B5B39082BD4AE5F0075AABB /* CameraPreviewView.swift in Sources */,
 				2BAB0F432BD3AFB300BEC974 /* ContentView.swift in Sources */,
 				2BAB0F412BD3AFB300BEC974 /* sample_camera_appApp.swift in Sources */,
+				2B5B390B2BD4B89C0075AABB /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "sample-camera-app/sample_camera_app.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample-camera-app/Preview Content\"";
@@ -483,6 +492,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kabupen.sample-camera-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
